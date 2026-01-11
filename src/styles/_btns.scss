@@ -1,0 +1,41 @@
+.btn {
+  width: fit-content;
+  cursor: pointer;
+  border: 0;
+  &:hover {
+    filter: brightness(90%)
+  }
+  &--copiar, &--submit {
+    @extend .btn;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+  }
+}
+
+.home-button {
+  position: fixed;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.home-icon {
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  stroke: currentColor;
+  transition: color 0.2s;
+}
+
+.home-icon:hover {
+  color: #6a1ae9;
+}
+
+@media (width > 640px) {
+  .btn {
+    &--submit {
+      grid-column: -1 / 5;
+      margin: 0 0 0 auto;
+    }
+  }
+}

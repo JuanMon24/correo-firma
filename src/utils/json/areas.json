@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "label": "CEO",
+    "src": ["assets/banners/FirmaElectronica_Director.gif"],
+    "srcPrueba": ["assets/banners/tenor.gif"]
+  },
+  {
+    "id": 2,
+    "label": "ALLIES",
+    "src": ["assets/banners/FirmaElectronica_Strategy.gif"],
+    "srcPrueba": ["assets/banners/tenor.gif"]
+  },
+  {
+    "id": 3,
+    "label": "CREATIVE",
+    "src": ["assets/banners/FirmaElectronica_Creative.gif"],
+    "srcPrueba": ["assets/banners/tenor.gif"]
+  },
+  {
+    "id": 4,
+    "label": "CIA",
+    "src": ["assets/banners/FirmaElectronica_Data.gif"],
+    "srcPrueba": ["assets/banners/tenor.gif"]
+  },
+  {
+    "id": 5,
+    "label": "IRS",
+    "src": ["assets/banners/FirmaElectronica_Director.gif"],
+    "srcPrueba": ["assets/banners/tenor.gif"]
+  },
+  {
+    "id": 6,
+    "label": "INTELLIGENCE",
+    "src": ["assets/banners/FirmaElectronica_Intelligence_Directive.gif"],
+    "srcPrueba": ["assets/banners/tenor.gif"]
+  },
+  {
+    "id": 7,
+    "label": "OWAK HEALTH",
+    "src": ["assets/banners/FirmaElectronica_Director.gif"],
+    "srcPrueba": ["assets/banners/tenor.gif"]
+  }
+]

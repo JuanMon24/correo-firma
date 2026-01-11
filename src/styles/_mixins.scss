@@ -1,0 +1,71 @@
+// Mixins de fuentes
+@mixin oktaneue-regular {
+  font-family: 'oktaneue_neue_regular', sans-serif;
+}
+@mixin oktaneue-bold {
+  font-family: 'oktaneue_neue_bold', sans-serif;
+}
+@mixin oktaneue-light {
+  font-family: 'oktaneue_neue_light', sans-serif;
+}
+
+
+
+// Mixin para diseño de cuadrícula en desktop
+@mixin info_width-desk($width) {
+  grid-template-columns: $width 1fr;
+  grid-template-rows: 1fr;
+  &.reverse {
+    grid-template-columns: 1fr $width;
+  }
+}
+
+
+
+// Keyframes para animación de desvanecimiento y desplazamiento hacia arriba
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -30%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+// Mixin para aplicar fadeInSlideUp a múltiples elementos
+@mixin fadeInSlideUpElements($selector, $total-elements, $animation-duration: 0.7s, $base-delay: 0.1s) {
+  #{$selector} > * {
+    opacity: 0;
+    animation: fadeInSlideUp $animation-duration cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  }
+  @for $i from 1 through $total-elements {
+    #{$selector} > *:nth-child(#{$i}) {
+      animation-delay: $base-delay * $i;
+    }
+  }
+}
+
+
+
+// Keyframes para animación de desvanecimiento de opacidad
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+// Mixin para aplicar fadeInOpacity a múltiples elementos
+@mixin fadeInOpacityElements($selector, $total-elements, $animation-duration: 0.4s, $base-delay: 0.1s) {
+  #{$selector} > * {
+    opacity: 0;
+    animation: fadeInOpacity $animation-duration ease-in-out both;
+  }
+  @for $i from 1 through $total-elements {
+    #{$selector} > *:nth-child(#{$i}) {
+      animation-delay: $base-delay * $i;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import 'colors';
+
+.cont-tabs {
+  & > header {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+  }
+  .tabs {
+    width: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tab {
+    cursor: pointer;
+    flex: 1 1 180px;
+    flex: 0 1 180px;
+    border-radius: 30px;
+    width: fit-content;
+    height: 100%;
+    p {
+      align-items: center;
+      line-height: 19px;
+    }
+    &-info {
+      top: 350px;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.cont {
+  &-form {
+    width: fit-content;
+    margin: 0 auto;
+    .label-input {
+      height: fit-content;
+      input {
+        width: 100%;
+        height: 50px;
+        padding: 5px 15px;
+      }
+    }
+    .error-form {
+      grid-column: 2/3;
+    }
+  }
+}
+
+.group {
+  &-select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media (width > 640px) {
+  .cont {
+    &-form {
+      grid-template-columns: repeat(6, 1fr);
+      .label-input {
+        grid-column: span 3;
+      }
+    }
+  }
+  .group {
+    &-select {
+      grid-column: span 6;
+    }
+  }
+}
+
+@media (width > 980px) {
+  .group-input {
+    grid-template-columns: auto 1fr;
+  }
+}
+
+@media (width > 768px) and (width < 1300px) {
+  .cont {
+    &-form {
+      .label-input {
+        grid-template-columns: 1fr;
+        place-items: flex-start;
+        br {
+          display: none;
+        }
+      }
+      .error-form {
+        grid-column: span 1;
+      }
+    }
+  }
+}

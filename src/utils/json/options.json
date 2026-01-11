@@ -1,0 +1,93 @@
+{
+  "areas": ["CEO", "ALLIES", "CREATIVE", "CIA", "INTELLIGENCE", "IRS", "OWAK HEALTH"],
+  "positions": {
+    "CEO": ["Agency Director", "Co-Founder"],
+    "ALLIES": [
+      "Ally Intern",
+      "Junior Ally",
+      "Mid-Level Ally",
+      "Senior Ally",
+      "Business Lead",
+      "Account Director Self Care",
+      "Account Director Skin Health",
+      "Account Director Essential Health",
+      "Head of Service"
+    ],
+    "CREATIVE": [
+      "Sena Apprentice",
+      "Graphic Design Intern",
+      "Junior Graphic Designer",
+      "Mid-Level Graphic Designer",
+      "Senior Graphic Designer",
+      "Motion Grapher Intern",
+      "Junior Motion Grapher",
+      "Mid-Level Motion Grapher",
+      "Senior Motion Grapher",
+      "Copywriter Intern",
+      "Junior Copywriter",
+      "Mid-Level Copywriter",
+      "Senior Copywriter",
+      "Copy Director",
+      "Junior Art Director",
+      "Front-End Web Developer"
+    ],
+    "CIA": [
+      "Analyst Intern",
+      "Analyst Trainee",
+      "Junior Analyst",
+      "Mid-Level Analyst",
+      "Senior Analyst",
+      "Junior Lead Analyst",
+      "Mid-Level Lead Analyst",
+      "Senior Lead Analyst",
+      "Performance Director"
+    ],
+    "INTELLIGENCE": [
+      "Head of Strategy",
+      "Head of Intelligence",
+      "Growth and Excellence Leader",
+      "Marketing Strategist",
+      "Mid-Level Strategic Analyst",
+      "Junior Strategic Analyst"
+    ],
+    "IRS": [
+      "Talent Human Leader",
+      "Administrative Coordinator",
+      "Accounting Assistant"
+    ],
+    "OWAK HEALTH": [
+      "Editor en Jefe"
+    ]
+  },
+  "hats": [
+    "Operational",
+    "Executional Jr.",
+    "Executional Mid.",
+    "Leader",
+    "Strategic",
+    "Directive",
+    "General Owak"
+  ],
+  "countries": [
+    {
+      "name": "CO",
+      "code": "+57"
+    },
+    {
+      "name": "US",
+      "code": "+1"
+    },
+    {
+      "name": "UK",
+      "code": "+44"
+    },
+    {
+      "name": "CA",
+      "code": "+1"
+    },
+    {
+      "name": "MX",
+      "code": "+52"
+    }
+  ]
+}

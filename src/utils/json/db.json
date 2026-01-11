@@ -1,0 +1,487 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "phone": "+573103710439",
+      "name": "Alejandra Araque",
+      "signature_name": "Alejandra Araque",
+      "email": "alejandraaraque@owak.co",
+      "area": "CIA",
+      "position": [
+        "Junior Analyst"
+      ],
+      "hat": "Executional Jr."
+    },
+    {
+      "id": "2",
+      "phone": "+573163421849",
+      "name": "Isabella Giraldo",
+      "signature_name": "Isabella Giraldo Narváez",
+      "email": "isabellagiraldo@owak.co",
+      "area": "INTELLIGENCE",
+      "position": [
+        "Mid-Level Strategic Analyst"
+      ],
+      "hat": "Executional Mid."
+    },
+    {
+      "id": "3",
+      "name": "María Cecilia Lizcano",
+      "signature_name": "María Cecilia Lizcano",
+      "email": "mariacecilializcano@owak.co",
+      "phone": "+573185875168",
+      "area": "CIA",
+      "position": [
+        "Mid-Level Analyst"
+      ],
+      "hat": "Executional Mid."
+    },
+    {
+      "id": "4",
+      "phone": "+573024132377",
+      "name": "Camila Castro Benítez",
+      "signature_name": "Camila Castro Benítez",
+      "email": "camilacastro@owak.co",
+      "area": "INTELLIGENCE",
+      "position": [
+        "Growth and Excellence Leader"
+      ],
+      "hat": "Leader"
+    },
+    {
+      "id": "5",
+      "phone": "+573188701150",
+      "name": "Juan David Ciro",
+      "signature_name": "Juan David Ciro",
+      "email": "juandavidciro@owak.co",
+      "area": "INTELLIGENCE",
+      "position": [
+        "Junior Strategic Analyst"
+      ],
+      "hat": "Executional Jr."
+    },
+    {
+      "id": "9",
+      "phone": "+573182254591",
+      "name": "Alejandro Saavedra",
+      "signature_name": "Alejandro Saavedra Escobar",
+      "email": "alejandrosaavedra@owak.co",
+      "area": "INTELLIGENCE",
+      "position": [
+        "Marketing Strategist"
+      ],
+      "hat": "Strategic"
+    },
+    {
+      "id": "10",
+      "phone": "+573146700816",
+      "name": "Jimena Puentes",
+      "signature_name": "Jime Puentes",
+      "email": "jimenapuentes@owak.co",
+      "area": "INTELLIGENCE",
+      "position": [
+        "Head of Intelligence"
+      ],
+      "hat": "Directive"
+    },
+    {
+      "id": "11",
+      "phone": "+573212653246",
+      "name": "María Fernanda Plazas",
+      "signature_name": "Mafe Plazas",
+      "email": "mariafernandaplazas@owak.co",
+      "area": "CIA",
+      "position": [
+        "Analyst Trainee"
+      ],
+      "hat": "Operational"
+    },
+    {
+      "id": "13",
+      "phone": "+573215427321",
+      "name": "Heidy Moreno",
+      "signature_name": "Hei Moreno",
+      "email": "morenoheidy@owak.co",
+      "area": "INTELLIGENCE",
+      "position": [
+        "Marketing Strategist"
+      ],
+      "hat": "Executional Mid."
+    },
+    {
+      "id": "15",
+      "name": "Paola Andrea Tobar",
+      "signature_name": "Paola Tobar B.",
+      "email": "paolaandreatobar@owak.co",
+      "phone": "+573188827345",
+      "area": "ALLIES",
+      "position": "Junior Ally",
+      "hat": "Operational"
+    },
+    {
+      "id": "16",
+      "phone": "+573163810087",
+      "name": "Ana María Navia",
+      "signature_name": "Ani Navia",
+      "email": "aninavia@owak.co",
+      "area": "INTELLIGENCE",
+      "position": [
+        "Marketing Strategist"
+      ],
+      "hat": "Strategic"
+    },
+    {
+      "id": "17",
+      "phone": "+573005257437",
+      "name": "Carolina Valencia",
+      "signature_name": "Caro Valencia",
+      "email": "carovalencia@owak.co",
+      "area": "INTELLIGENCE",
+      "position": [
+        "Head of Strategy"
+      ],
+      "hat": "Directive"
+    },
+    {
+      "id": "19",
+      "phone": "+573003133851",
+      "name": "Valentina Ortega Moncanut",
+      "signature_name": "Valentina Ortega Moncanut",
+      "email": "valentinaortega@owak.co",
+      "area": "ALLIES",
+      "position": [
+        "Business Lead"
+      ],
+      "hat": "Leader"
+    },
+    {
+      "id": "20",
+      "phone": "+573167494212",
+      "name": "Paola Andrea Cuadros",
+      "signature_name": "Paola Cuadros",
+      "email": "paolaandreacuadros@owak.co",
+      "area": "ALLIES",
+      "position": [
+        "Business Lead"
+      ],
+      "hat": "Leader"
+    },
+    {
+      "id": "21",
+      "name": "Estefanía Caicedo López",
+      "signature_name": "Estefanía Caicedo",
+      "email": "estefaniacaicedolopez@owak.co",
+      "phone": "+573113393416",
+      "area": "ALLIES",
+      "position": [
+        "Junior Ally"
+      ],
+      "hat": "Executional Jr."
+    },
+    {
+      "id": "23",
+      "phone": "+573012528192",
+      "name": "Luisa Fernanda Ortíz Londoño",
+      "signature_name": "Luisa Ortíz",
+      "email": "luiortiz@owak.co",
+      "area": "ALLIES",
+      "position": [
+        "Head of Service"
+      ],
+      "hat": "Directive"
+    },
+    {
+      "id": "27",
+      "name": "Cristian Mauricio Henao",
+      "signature_name": "Cristian Henao",
+      "email": "cristianmauriciohenao@owak.co",
+      "phone": "+573007651113",
+      "area": "CREATIVE",
+      "position": "Graphic Design Intern",
+      "hat": "Operational"
+    },
+    {
+      "id": "29",
+      "name": "Juan José Carpintero",
+      "signature_name": "Juan Carpintero",
+      "email": "juanjosecarpintero@owak.co",
+      "phone": "+573148817517",
+      "area": "CREATIVE",
+      "position": "Graphic Design Intern",
+      "hat": "Operational"
+    },
+    {
+      "id": "30",
+      "name": "Julián Echeverry",
+      "signature_name": "Juli Echeverry",
+      "email": "julianecheverry@owak.co",
+      "phone": "+573104583872",
+      "area": "CREATIVE",
+      "position": [
+        "Senior Graphic Designer"
+      ],
+      "hat": "Strategic"
+    },
+    {
+      "id": "31",
+      "name": "Felipe Corrales",
+      "signature_name": "Pipe Corrales",
+      "email": "felipecorrales@owak.co",
+      "phone": "+573162498034",
+      "area": "CREATIVE",
+      "position": [
+        "Junior Graphic Designer"
+      ],
+      "hat": "Executional Jr."
+    },
+    {
+      "id": "32",
+      "name": "Daniel Herrera",
+      "signature_name": "Daniel Herrera",
+      "email": "danielherrera@owak.co",
+      "phone": "+573017912314",
+      "area": "CREATIVE",
+      "position": [
+        "Junior Copywriter"
+      ],
+      "hat": "Executional Jr."
+    },
+    {
+      "id": "33",
+      "name": "Nicolás Ramos Mojica",
+      "signature_name": "Nico Ramos",
+      "email": "nicolasramos@owak.co",
+      "phone": "+573224617683",
+      "area": "CREATIVE",
+      "position": [
+        "Junior Copywriter"
+      ],
+      "hat": "Executional Jr."
+    },
+    {
+      "id": "34",
+      "name": "José Benítez",
+      "signature_name": "Joselo E. B.",
+      "email": "josebenitez@owak.co",
+      "phone": "+573158028253",
+      "area": "CREATIVE",
+      "position": [
+        "Mid-Level Graphic Designer"
+      ],
+      "hat": "Executional Mid."
+    },
+    {
+      "id": "36",
+      "name": "Laura Ximena Patiño",
+      "signature_name": "Lau Patiño Luna",
+      "email": "lauraximenapatino@owak.co",
+      "phone": "+573152385292",
+      "area": "CREATIVE",
+      "position": [
+        "Mid-Level Copywriter"
+      ],
+      "hat": "Executional Mid."
+    },
+    {
+      "id": "38",
+      "name": "Juan Daniel Montero",
+      "signature_name": "Juan Montero",
+      "email": "juandanielmontero@owak.co",
+      "phone": "+573022147310",
+      "area": "CREATIVE",
+      "position": "Front-End Web Developer",
+      "hat": "Operational"
+    },
+    {
+      "id": "41",
+      "name": "Alex Arias",
+      "signature_name": "Alex Arias",
+      "email": "alexarias@owak.co",
+      "phone": "+573205173960",
+      "area": "CREATIVE",
+      "position": "Junior Motion Grapher",
+      "hat": "Executional Jr."
+    },
+    {
+      "id": "42",
+      "name": "Melina Hernández",
+      "signature_name": "Meli Hernández",
+      "email": "melinahernandez@owak.co",
+      "phone": "+573158779891",
+      "area": "CREATIVE",
+      "position": [
+        "Junior Graphic Designer"
+      ],
+      "hat": "Executional Jr."
+    },
+    {
+      "id": "43",
+      "name": "Stephania Bejarano",
+      "signature_name": "Nia Bejarano",
+      "email": "stephaniabejarano@owak.co",
+      "phone": "+573166913571",
+      "area": "CREATIVE",
+      "position": "Senior Graphic Designer",
+      "hat": "Strategic"
+    },
+    {
+      "id": "44",
+      "name": "Lilia Inés Patiño Ramírez",
+      "signature_name": "Lilia Patiño Ramírez",
+      "email": "liliainespatino@owak.co",
+      "phone": "+573014345895",
+      "area": "CREATIVE",
+      "position": "Copy Director",
+      "hat": "Leader"
+    },
+    {
+      "id": "45",
+      "name": "Gustavo Polanco",
+      "signature_name": "Gustavo Polanco",
+      "email": "gustavopolanco@owak.co",
+      "phone": "+573012130385",
+      "area": "CREATIVE",
+      "position": "Junior Art Director",
+      "hat": "Leader"
+    },
+    {
+      "id": "46",
+      "name": "Jhonatan Rios",
+      "signature_name": "Jhonatan Rios",
+      "email": "jhonatanrios@owak.co",
+      "phone": "+573156366632",
+      "area": "CREATIVE",
+      "position": [
+        "Front-End Web Developer"
+      ],
+      "hat": "Operational"
+    },
+    {
+      "id": "47",
+      "name": "Mauricio Toro",
+      "signature_name": "Mauro Toro",
+      "email": "maurotoro@owak.co",
+      "phone": "+573008781009",
+      "area": "CREATIVE",
+      "position": "Senior Motion Grapher",
+      "hat": "Strategic"
+    },
+    {
+      "id": "48",
+      "name": "María Fernanda Ramírez",
+      "signature_name": "María Fernanda Ramírez",
+      "email": "mariafernandaramirez@owak.co",
+      "phone": "+573176990003",
+      "area": "IRS",
+      "position": [
+        "Administrative Coordinator"
+      ],
+      "hat": "General Owak"
+    },
+    {
+      "id": "49",
+      "name": "Luis Antonio Montilla",
+      "signature_name": "Luis A. Montilla P.",
+      "email": "luisantoniomontilla@owak.co",
+      "phone": "+573172633866",
+      "area": "IRS",
+      "position": "Accounting Assistant",
+      "hat": "General Owak"
+    },
+    {
+      "id": "50",
+      "name": "Daniel O’Byrne",
+      "signature_name": "Danny O'Byrne",
+      "email": "dannyobyrne@owak.co",
+      "phone": "+573127541010",
+      "area": "CEO",
+      "position": [
+        "Agency Director",
+        "Co-Founder"
+      ],
+      "hat": "General Owak"
+    },
+    {
+      "id": "53",
+      "name": "Anyelo Pizo Almario",
+      "signature_name": "Anyelo Pizo",
+      "email": "anyelopizo@owak.co",
+      "phone": "+573209787203",
+      "area": "CREATIVE",
+      "position": "Sena Apprentice",
+      "hat": "Operational"
+    },
+    {
+      "id": "54",
+      "name": "María Alejandra Rodríguez",
+      "signature_name": "Maleja Rodríguez",
+      "email": "mariaalejandrarodriguez@owak.co",
+      "phone": "+573184829160",
+      "area": "CREATIVE",
+      "position": [
+        "Sena Apprentice"
+      ],
+      "hat": "Operational"
+    },
+    {
+      "id": "55",
+      "name": "Mónica Daza Henao",
+      "signature_name": "Mónica Daza",
+      "email": "monicadazahenao@owak.co",
+      "phone": "+573016483521",
+      "area": "ALLIES",
+      "position": [
+        "Mid-Level Ally"
+      ],
+      "hat": "Executional Mid."
+    },
+    {
+      "id": "56",
+      "name": "Laura Isabella Valencia Marulanda",
+      "signature_name": "Laura Valencia",
+      "email": "lauravalencia@owak.co",
+      "phone": "+573197941097",
+      "area": "ALLIES",
+      "position": [
+        "Mid-Level Ally"
+      ],
+      "hat": "Executional Mid."
+    },
+    {
+      "id": "57",
+      "phone": "+573136579926",
+      "name": "Brenda Saenz Carrillo",
+      "signature_name": "Brenda Saenz",
+      "email": "brendasaenz@owak.co",
+      "area": "CIA",
+      "position": [
+        "Junior Analyst"
+      ],
+      "hat": "Executional Jr."
+    },
+    {
+      "id": "58",
+      "name": "Arturo O’Byrne De Valdenebro",
+      "signature_name": "Dr. med. Arturo O’Byrne",
+      "email": "arturoobyrnemd@owak.co",
+      "phone": "+573054057532",
+      "area": "OWAK HEALTH",
+      "position": [
+        "Editor en Jefe"
+      ],
+      "hat": "General Owak"
+    },
+    {
+      "id": "59",
+      "phone": "+573115473743",
+      "name": "Evelyn Quintero",
+      "signature_name": "Evelyn Quintero",
+      "email": "evelynquintero@owak.co",
+      "area": "CIA",
+      "position": [
+        "Analyst Intern"
+      ],
+      "hat": "Operational"
+    }
+  ]
+}
