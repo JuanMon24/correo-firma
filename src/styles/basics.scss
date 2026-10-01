@@ -14,10 +14,12 @@
   font-family: oktaneue_neue_regular;
   src: url(/fonts/OktaNeue-Regular.ttf) format("truetype");
 }
+
 @font-face {
   font-family: oktaneue_neue_bold;
   src: url(/fonts/OktaNeue-Bold.ttf) format("truetype");
 }
+
 @font-face {
   font-family: oktaneue_neue_light;
   src: url(/fonts/OktaNeue-ExtraLight.ttf) format("truetype");
@@ -26,6 +28,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   @include oktaneue-regular;
   background: $base;
@@ -41,14 +44,17 @@ section {
   &--bold {
     @include oktaneue-bold;
   }
+
   &--light {
     @include oktaneue-light;
   }
 }
+
 .d {
   &-grid {
     display: grid;
   }
+
   &-flex {
     display: flex;
   }
@@ -56,9 +62,11 @@ section {
 
 .center {
   place-items: center;
+
   &-start {
     @extend .center;
   }
+
   &-end {
     @extend .center;
   }
@@ -68,9 +76,11 @@ section {
   &-5 {
     gap: 5px;
   }
+
   &-15 {
     gap: 15px;
   }
+
   &-30 {
     gap: 30px;
   }
@@ -80,13 +90,16 @@ section {
   &--0 {
     margin: 0;
   }
+
   &b {
     &--5 {
       margin: 0 0 5px;
     }
+
     &--15 {
       margin: 0 0 15px;
     }
+
     &--30 {
       margin: 0 0 30px;
     }
@@ -97,6 +110,7 @@ section {
   &-15 {
     padding: 15px;
   }
+
   &-section {
     padding: 30px 15px;
   }
@@ -106,18 +120,22 @@ section {
   &-instruc {
     width: 100%;
   }
+
   &-area {
     background-color: $white;
     border-radius: 15px;
     box-shadow: 0 0.25rem 1rem $box-shadow-color;
+
     // Aplicar margen inferior a todos los hijos excepto al último
-    > *:not(:last-child):not(summary) {
+    >*:not(:last-child):not(summary) {
       margin-bottom: 5px;
     }
+
     // Animación para los elementos dentro de .area que no sean summary
-    > *:not(summary) {
+    >*:not(summary) {
       @include fadeInSlideUpElements($body-select, $body-total, $body-time, $body-delay);
     }
+
     // Estilos para summary dentro de .area
     summary {
       cursor: pointer;
@@ -127,11 +145,13 @@ section {
       margin-bottom: 0;
       transition: margin-bottom .4s;
       position: relative;
+
       // Ocultar el marcador predeterminado de summary
       &::-webkit-details-marker,
       &::marker {
         display: none;
       }
+
       // Estilos para el icono después de summary
       &::after {
         content: "\f067";
@@ -149,14 +169,17 @@ section {
         border-radius: 50%;
       }
     }
+
     &[open] {
       summary {
         margin-bottom: 15px;
+
         &::after {
           content: "\f068";
         }
       }
     }
+
     .area {
       grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     }
@@ -169,9 +192,11 @@ section {
     height: 1px;
   }
 }
+
 .label-input {
   grid-template-columns: 1fr 75%;
   align-items: center;
+
   input {
     width: fit-content;
   }
@@ -181,15 +206,18 @@ section {
 .owak {
   width: min(350px, 100%);
 }
+
 .c2m {
   width: min(320px, 100%);
   letter-spacing: -3px;
   margin: 0 0 10px;
+
   span:nth-child(1) {
     @include oktaneue-light;
     justify-self: flex-start;
     font-style: italic;
   }
+
   span:nth-child(3) {
     width: 268px;
     margin: 0 0 0 auto;
@@ -201,17 +229,21 @@ section {
   font-size: 80px;
   line-height: .7;
 }
+
 .title {
   font-size: 26px;
   line-height: 1;
 }
+
 .subtitle {
   font-size: 28px;
   line-height: 1;
 }
+
 .paragraph {
   font-size: 19px;
 }
+
 .legal {
   font-size: 14px;
   line-height: 1.2;
@@ -221,9 +253,11 @@ section {
   &-gray {
     border: 1px solid $gray;
   }
+
   &-purple {
     border: 1px solid $purple;
   }
+
   &-white {
     border: 1px solid $white;
   }
@@ -233,24 +267,31 @@ section {
   &-darkgray {
     color: $darkgray;
   }
+
   &-orange {
     color: $orange;
   }
+
   &-purple {
     color: $purple;
   }
+
   &-white {
     color: $white;
   }
+
   &-right {
     text-align: right;
   }
+
   &-center {
     text-align: center;
   }
+
   &-uppercase {
     text-transform: uppercase;
   }
+
   &-capitalize {
     text-transform: capitalize;
   }
@@ -262,22 +303,28 @@ section {
       border-radius: 15px;
     }
   }
+
   &g {
     &-base {
       background-color: $base;
     }
+
     &-orange {
       background-color: $orange;
     }
+
     &-gray {
       background-color: $gray;
     }
+
     &-purple {
       background-color: $purple;
     }
+
     &-welcome {
-      background: url('../assets/back-owak.png') no-repeat center/cover;
+      background: url('../../public/assets/back-owak.png') no-repeat center/cover;
     }
+
     &-white {
       background-color: $white;
     }
@@ -290,12 +337,14 @@ section {
       padding: 30px;
     }
   }
+
   main {
     height: 100vh;
     grid-template-columns: 45% 55%;
   }
+
   .of {
-    &-y{
+    &-y {
       overflow-y: scroll;
     }
   }
