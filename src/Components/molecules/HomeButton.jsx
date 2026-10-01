@@ -3,7 +3,7 @@ import { HomeIcon } from '../atoms/HomeIcon'
 import '../../styles/_btns.scss';
 
 export const HomeButton = ({
-  href = '/toolbox/',
+  href = '/',
   title = 'Ir al inicio',
   className = '',
   ...props
